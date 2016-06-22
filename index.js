@@ -33,7 +33,7 @@ module.exports = {
 			'warn'
 		],
 		'no-undef': [
-			'warn'
+			'error'
 		],
 		'dot-notation': [
 			'error'
