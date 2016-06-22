@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-grind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for grind projects",
   "author": "Shaun Harrison (@shnhrrsn)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shnhrrsn/eslint-config-grind.git"
+    "url": "https://github.com/grindjs/eslint-config-grind.git"
   },
   "keywords": [
     "grind-framework",
