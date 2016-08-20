@@ -1,5 +1,8 @@
 module.exports = {
 	extends: 'eslint:recommended',
+	plugins: [
+		'babel'
+	],
 	rules: {
 		indent: [
 			'error',
@@ -160,6 +163,10 @@ module.exports = {
 				before: true,
 				after: true
 			}
+		],
+		'babel/arrow-parens': [
+			'warn',
+			'as-needed'
 		],
 		'constructor-super': [
 			'error'
