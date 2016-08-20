@@ -58,6 +58,9 @@ module.exports = {
 		'no-useless-concat': [
 			'warn'
 		],
+		'prefer-template': [
+			'warn',
+		],
 		'no-useless-escape': [
 			'error'
 		],
@@ -122,6 +125,9 @@ module.exports = {
 			'warn'
 		],
 		'no-whitespace-before-property': [
+			'error'
+		],
+		'no-var': [
 			'error'
 		],
 		'one-var': [
