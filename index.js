@@ -8,7 +8,7 @@ module.exports = {
 			'error',
 			'tab',
 			{
-				'SwitchCase': 1
+				SwitchCase: 1
 			}
 		],
 		'linebreak-style': [
@@ -48,8 +48,8 @@ module.exports = {
 			'error',
 			{
 				max: 2,
-				'maxBOF': 0,
-				'maxEOF': 1
+				maxBOF: 0,
+				maxEOF: 1
 			}
 		],
 		'no-trailing-spaces': [
@@ -62,7 +62,7 @@ module.exports = {
 			'warn'
 		],
 		'prefer-template': [
-			'warn',
+			'warn'
 		],
 		'no-useless-escape': [
 			'error'
@@ -91,7 +91,7 @@ module.exports = {
 			'error',
 			'1tbs',
 			{
-				'allowSingleLine': true
+				allowSingleLine: true
 			}
 		],
 		'comma-spacing': [
@@ -104,8 +104,8 @@ module.exports = {
 		'key-spacing': [
 			'error',
 			{
-				'beforeColon': false,
-				'afterColon': true,
+				beforeColon: false,
+				afterColon: true,
 				mode: 'strict'
 			}
 		],
@@ -145,14 +145,6 @@ module.exports = {
 			'error',
 			'as-needed'
 		],
-		quotes: [
-			'error',
-			'single'
-		],
-		semi: [
-			'error',
-			'never'
-		],
 		'space-before-function-paren': [
 			'error',
 			'never'
@@ -190,5 +182,4 @@ module.exports = {
 			'error'
 		]
 	}
-
 };
