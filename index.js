@@ -60,6 +60,10 @@ module.exports = {
 		'no-trailing-spaces': [
 			'error'
 		],
+		'space-in-parens': [
+			'error',
+			'never'
+		],
 		'no-redeclare': [
 			'error'
 		],
