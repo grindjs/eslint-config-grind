@@ -9,6 +9,7 @@
     "url": "https://github.com/grindjs/eslint-config-grind.git"
   },
   "keywords": [
+    "grind-js",
     "grind-framework",
     "eslint",
     "eslintconfig"
@@ -18,6 +19,7 @@
     "eslint": "2.x"
   },
   "dependencies": {
-    "eslint-plugin-babel": "^3.3.0"
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-grind": "^1.1.0"
   }
 }

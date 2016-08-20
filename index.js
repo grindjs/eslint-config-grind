@@ -1,8 +1,13 @@
 module.exports = {
 	extends: 'eslint:recommended',
 	plugins: [
-		'babel'
+		'babel',
+		'grind'
 	],
+	env: {
+		es6: true,
+		'grind/grind': true
+	},
 	rules: {
 		indent: [
 			'error',
