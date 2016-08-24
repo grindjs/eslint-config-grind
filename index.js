@@ -119,6 +119,13 @@ module.exports = {
 				after: true
 			}
 		],
+		'spaced-comment': [
+			'error',
+			'always',
+			{
+				exceptions: [ '*' ]
+			}
+		],
 		'key-spacing': [
 			'error',
 			{
