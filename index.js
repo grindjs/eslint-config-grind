@@ -94,6 +94,13 @@ module.exports = {
 			'error',
 			'always'
 		],
+		"object-curly-spacing": [
+			"error",
+			"always"
+		],
+		"object-property-newline": [
+			"error"
+		],
 		'block-spacing': [
 			'error',
 			'always'
