@@ -150,8 +150,9 @@ module.exports = {
 		'no-mixed-spaces-and-tabs': [
 			'error'
 		],
-		'no-spaced-func': [
-			'error'
+		'func-call-spacing': [
+			'error',
+			'never'
 		],
 		'no-unneeded-ternary': [
 			'warn'
