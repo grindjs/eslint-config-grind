@@ -101,6 +101,10 @@ module.exports = {
 		'object-property-newline': [
 			'error'
 		],
+		'computed-property-spacing': [
+			'error',
+			'never'
+		],
 		'block-spacing': [
 			'error',
 			'always'
