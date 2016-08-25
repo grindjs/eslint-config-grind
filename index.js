@@ -23,7 +23,7 @@ module.exports = {
 		quotes: [
 			'error',
 			'single', {
-				'avoidEscape': true
+				avoidEscape: true
 			}
 		],
 		semi: [
@@ -66,6 +66,9 @@ module.exports = {
 			'error',
 			'never'
 		],
+		'space-infix-ops': [
+			'error'
+		],
 		'no-redeclare': [
 			'error'
 		],
@@ -98,9 +101,6 @@ module.exports = {
 			'error',
 			'always'
 		],
-		'object-property-newline': [
-			'error'
-		],
 		'computed-property-spacing': [
 			'error',
 			'never'
@@ -108,6 +108,26 @@ module.exports = {
 		'block-spacing': [
 			'error',
 			'always'
+		],
+		'space-before-blocks': [
+			'error',
+			'always'
+		],
+		'keyword-spacing': [
+			'error',
+			{
+				before: true,
+				after: true,
+				overrides: {
+					catch: { after: false },
+					for: { after: false },
+					if: { after: false },
+					import: { before: false },
+					switch: { after: false },
+					while: { after: false },
+					with: { after: false }
+				}
+			}
 		],
 		'brace-style': [
 			'error',
@@ -144,10 +164,23 @@ module.exports = {
 				max: 4
 			}
 		],
+		'max-len': [
+			'warn',
+			{
+				code: 120,
+				ignoreUrls: true
+			}
+		],
+		'max-lines': [
+			'warn'
+		],
 		'no-lonely-if': [
 			'warn'
 		],
 		'no-mixed-spaces-and-tabs': [
+			'error'
+		],
+		'no-mixed-operators': [
 			'error'
 		],
 		'func-call-spacing': [
