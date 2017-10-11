@@ -176,7 +176,10 @@ module.exports = {
 			'warn',
 			{
 				code: 120,
-				ignoreUrls: true
+				ignoreUrls: true,
+				ignoreStrings: true,
+				ignoreRegExpLiterals: true,
+				ignoreTemplateLiterals: true
 			}
 		],
 		'max-lines': [
