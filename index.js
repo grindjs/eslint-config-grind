@@ -136,14 +136,6 @@ module.exports = {
 				allowSingleLine: true
 			}
 		],
-		'padded-blocks': [
-			'error',
-			{
-				blocks: 'never',
-				classes: 'always',
-				switches: 'never'
-			}
-		],
 		'comma-spacing': [
 			'error',
 			{
