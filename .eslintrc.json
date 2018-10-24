@@ -1,0 +1,7 @@
+{
+	"env": { "node": true },
+	"extends": "./src/index.js",
+	"parserOptions": {
+		"sourceType": "module"
+	}
+}
