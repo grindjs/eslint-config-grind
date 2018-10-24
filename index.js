@@ -5,7 +5,7 @@ module.exports = {
 		'grind'
 	],
 	env: {
-		es6: true,
+		ecmaVersion: 2018,
 		'grind/grind': true
 	},
 	rules: {
