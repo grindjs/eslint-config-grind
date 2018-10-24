@@ -5,8 +5,10 @@ module.exports = {
 		'grind'
 	],
 	env: {
-		ecmaVersion: 2018,
 		'grind/grind': true
+	},
+	parserOptions: {
+		ecmaVersion: 2018
 	},
 	rules: {
 		indent: [
