@@ -232,7 +232,7 @@ module.exports = {
 				after: true
 			}
 		],
-		'babel/arrow-parens': [
+		'arrow-parens': [
 			'warn',
 			'as-needed'
 		],
