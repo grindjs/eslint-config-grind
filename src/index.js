@@ -12,6 +12,8 @@ module.exports = {
 		ecmaVersion: 2018
 	},
 	rules: {
+		'grind/empty-array': 'error',
+		'grind/empty-object': 'error',
 		indent: [
 			'error',
 			'tab',

@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "eslint-plugin-babel": "^5.2.1",
-    "eslint-plugin-grind": "^1.1.2"
+    "eslint-plugin-grind": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^5.7.0"
