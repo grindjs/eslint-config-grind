@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-grind",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "description": "eslint config for grind projects",
   "author": "Shaun Harrison (@shnhrrsn)",
   "main": "src/index.js",
