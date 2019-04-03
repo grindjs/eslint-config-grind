@@ -2,7 +2,8 @@ module.exports = {
 	extends: 'eslint:recommended',
 	plugins: [
 		'babel',
-		'grind'
+		'grind',
+		'@regru/prefer-early-return'
 	],
 	env: {
 		'grind/grind': true,
@@ -264,6 +265,12 @@ module.exports = {
 		],
 		'prefer-spread': [
 			'error'
+		],
+		'@regru/prefer-early-return/prefer-early-return': [
+			'error',
+			{
+				maximumStatements: 1
+			}
 		],
 		camelcase: [
 			'error',
