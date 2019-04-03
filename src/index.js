@@ -264,6 +264,13 @@ module.exports = {
 		],
 		'prefer-spread': [
 			'error'
+		],
+		camelcase: [
+			'error',
+			{
+				ignoreDestructuring: true,
+				properties: 'never'
+			}
 		]
 	}
 }
